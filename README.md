@@ -61,7 +61,7 @@ tail -f ~/.dingtalk-forward/notifications.jsonl
 输出格式（JSONL，每行一条）：
 
 ```json
-{"ts": 1792393468.22, "app": "com.alibaba.DingTalkMac", "title": "李波潮", "body": "实验报告周五前交", "rowid": 774}
+{"ts": 1792393468.22, "app": "com.alibaba.DingTalkMac", "title": "张三", "body": "实验报告周五前交", "rowid": 774}
 ```
 
 ## 关键技术点
