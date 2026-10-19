@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.user.dingtalk-to-muse</string>
+    <key>ProgramArguments</key>
+    <array>
+        <!-- Replace with your Python 3 interpreter -->
+        <string>/usr/bin/python3</string>
+        <!-- Replace with the absolute path to notif_forward.py -->
+        <string>/Users/YOU/dingtalk-to-muse/notif_forward.py</string>
+        <string>--app</string>
+        <string>com.alibaba.DingTalkMac</string>
+        <string>--data-dir</string>
+        <string>/Users/YOU/.dingtalk-forward</string>
+    </array>
+    <key>StartInterval</key>
+    <integer>180</integer>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>StandardOutPath</key>
+    <string>/Users/YOU/.dingtalk-forward/launchd.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/YOU/.dingtalk-forward/launchd.log</string>
+</dict>
+</plist>
